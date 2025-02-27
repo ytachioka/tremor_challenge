@@ -25,7 +25,7 @@ This script runs data generation (3_gen_data_prop.py) and human activity recognt
 ## step4: reproduce results with the best parameters
 `python rep_opt.py` for each seed
 
-## step5: to submit papers, labels are predicted by combining two HAR models trained on original and augmented data
+## step5: to submit papers, labels are predicted by combining three HAR models trained on the original and augmented data
 `python 4_evaluateHAR.py`
 
 
